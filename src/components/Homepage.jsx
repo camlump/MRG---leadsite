@@ -17,13 +17,13 @@ const Homepage = () => {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">About us</a>
+          <a class="nav-link" aria-current="page" target="_blank" href="https://www.mavinrealtygroup.com/our-company/">About us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">sell property</a>
+          <a class="nav-link" target="_blank" href="https://www.mavinrealtygroup.com/sell-your-house/">sell property</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Buy property</a>
+          <a class="nav-link" target="_blank" href="mavinrealtygroup.com/joint-venture/">Buy property</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Joint Venture</a>
@@ -37,8 +37,8 @@ const Homepage = () => {
           <h6>We analyze millions of home sales to find the best performing real estate agents.</h6>
 
           <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Enter your address" aria-label="Recipient's username" aria-describedby="button-addon2"></input>
-                <button class="btn btn-primary" type="button" id="button-addon2">Get Cash Offer</button>
+                <input type="text" className="form-control" placeholder="Enter your address" aria-label="Recipient's username" aria-describedby="button-addon2"></input>
+                <button className="btn btn-primary" type="button" id="button-addon2">Get Cash Offer</button>
                     </div>
 
                     </div>

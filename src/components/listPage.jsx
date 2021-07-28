@@ -10,7 +10,7 @@ const listPage = () => {
     return (
         <div className="listPage">
             
-            <div className="content container-md">
+            <div className="content-container">
             <h2 className="sub-title">Selling Your Property Simplified</h2>
 
                     <div class="container">
@@ -45,6 +45,8 @@ const listPage = () => {
                                 </div>
                             </div>
                         </div>
+
+                        <hr />
 
                         <div className="text-content">
                             <h3>These are issues that we help solve on a daily basis.</h3>
